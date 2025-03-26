@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OgrenciSinavModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TblAkademisyen">
+    <Key>
+      <PropertyRef Name="AkademisyenId" />
+    </Key>
+    <Property Name="AkademisyenId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AkademisyenAd" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="AkademisyenSoyad" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Unvan" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="AkademisyenNumara" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="AkademisyenSifre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TblBolum">
+    <Key>
+      <PropertyRef Name="BolumId" />
+    </Key>
+    <Property Name="BolumId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BolumAd" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblOgrenci" Relationship="Self.FK_TblOgrenci_TblBolum" FromRole="TblBolum" ToRole="TblOgrenci" />
+  </EntityType>
+  <EntityType Name="TblDersler">
+    <Key>
+      <PropertyRef Name="DersID" />
+    </Key>
+    <Property Name="DersID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DersAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblNotlar" Relationship="Self.FK_TblNotlar_TblDersler" FromRole="TblDersler" ToRole="TblNotlar" />
+  </EntityType>
+  <EntityType Name="TblNotlar">
+    <Key>
+      <PropertyRef Name="NotID" />
+    </Key>
+    <Property Name="NotID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sinav1" Type="Int32" />
+    <Property Name="Sinav2" Type="Int32" />
+    <Property Name="Sinav3" Type="Int32" />
+    <Property Name="Quiz1" Type="Int32" />
+    <Property Name="Quiz2" Type="Int32" />
+    <Property Name="Proje" Type="Int32" />
+    <Property Name="Ders" Type="Int32" />
+    <Property Name="Ogrenci" Type="Int32" />
+    <NavigationProperty Name="TblDersler" Relationship="Self.FK_TblNotlar_TblDersler" FromRole="TblNotlar" ToRole="TblDersler" />
+    <NavigationProperty Name="TblOgrenci" Relationship="Self.FK_TblNotlar_TblOgrenci" FromRole="TblNotlar" ToRole="TblOgrenci" />
+    <Property Name="Ortalama" Type="Decimal" Precision="5" Scale="2" />
+  </EntityType>
+  <EntityType Name="TblOgrenci">
+    <Key>
+      <PropertyRef Name="OgrId" />
+    </Key>
+    <Property Name="OgrId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OgrAd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="OgrSoyad" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="OgrNumara" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="OgrSifre" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="OgrMail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OgrBolum" Type="Int32" />
+    <NavigationProperty Name="TblBolum" Relationship="Self.FK_TblOgrenci_TblBolum" FromRole="TblOgrenci" ToRole="TblBolum" />
+    <NavigationProperty Name="TblNotlar" Relationship="Self.FK_TblNotlar_TblOgrenci" FromRole="TblOgrenci" ToRole="TblNotlar" />
+    <Property Name="OgrDurum" Type="Boolean" />
+  </EntityType>
+  <Association Name="FK_TblOgrenci_TblBolum">
+    <End Role="TblBolum" Type="Self.TblBolum" Multiplicity="0..1" />
+    <End Role="TblOgrenci" Type="Self.TblOgrenci" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBolum">
+        <PropertyRef Name="BolumId" />
+      </Principal>
+      <Dependent Role="TblOgrenci">
+        <PropertyRef Name="OgrBolum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblNotlar_TblDersler">
+    <End Role="TblDersler" Type="Self.TblDersler" Multiplicity="0..1" />
+    <End Role="TblNotlar" Type="Self.TblNotlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblDersler">
+        <PropertyRef Name="DersID" />
+      </Principal>
+      <Dependent Role="TblNotlar">
+        <PropertyRef Name="Ders" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblNotlar_TblOgrenci">
+    <End Role="TblOgrenci" Type="Self.TblOgrenci" Multiplicity="0..1" />
+    <End Role="TblNotlar" Type="Self.TblNotlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblOgrenci">
+        <PropertyRef Name="OgrId" />
+      </Principal>
+      <Dependent Role="TblNotlar">
+        <PropertyRef Name="Ogrenci" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OgrenciSinavEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TblAkademisyen" EntityType="Self.TblAkademisyen" />
+    <EntitySet Name="TblBolum" EntityType="Self.TblBolum" />
+    <EntitySet Name="TblDersler" EntityType="Self.TblDersler" />
+    <EntitySet Name="TblNotlar" EntityType="Self.TblNotlar" />
+    <EntitySet Name="TblOgrenci" EntityType="Self.TblOgrenci" />
+    <AssociationSet Name="FK_TblOgrenci_TblBolum" Association="Self.FK_TblOgrenci_TblBolum">
+      <End Role="TblBolum" EntitySet="TblBolum" />
+      <End Role="TblOgrenci" EntitySet="TblOgrenci" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblNotlar_TblDersler" Association="Self.FK_TblNotlar_TblDersler">
+      <End Role="TblDersler" EntitySet="TblDersler" />
+      <End Role="TblNotlar" EntitySet="TblNotlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblNotlar_TblOgrenci" Association="Self.FK_TblNotlar_TblOgrenci">
+      <End Role="TblOgrenci" EntitySet="TblOgrenci" />
+      <End Role="TblNotlar" EntitySet="TblNotlar" />
+    </AssociationSet>
+    <EntitySet Name="View_1" EntityType="OgrenciSinavModel.View_1" />
+    <FunctionImport Name="Notlar" ReturnType="Collection(OgrenciSinavModel.Notlar_Result)" />
+    <FunctionImport Name="Notlar2" ReturnType="Collection(OgrenciSinavModel.Notlar2_Result)" />
+    <FunctionImport Name="Notlar3" ReturnType="Collection(OgrenciSinavModel.Notlar3_Result)" />
+  </EntityContainer>
+  <EntityType Name="View_1">
+    <Key>
+      <PropertyRef Name="NotID" />
+    </Key>
+    <Property Name="NotID" Type="Int32" Nullable="false" />
+    <Property Name="OgrAd" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="OgrSoyad" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="DersAd" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sinav1" Type="Byte" />
+    <Property Name="Sinav2" Type="Byte" />
+    <Property Name="Sinav3" Type="Byte" />
+    <Property Name="Quiz1" Type="Byte" />
+    <Property Name="Quiz2" Type="Byte" />
+    <Property Name="Proje" Type="Byte" />
+    <Property Name="Ortalama" Type="Decimal" Precision="5" Scale="2" />
+  </EntityType>
+  <ComplexType Name="Notlar_Result">
+    <Property Type="Int32" Name="NotID" Nullable="false" />
+    <Property Type="String" Name="Ders_Adı" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Öğrenci" Nullable="true" MaxLength="46" />
+    <Property Type="Byte" Name="Sinav1" Nullable="true" />
+    <Property Type="Byte" Name="Sinav2" Nullable="true" />
+    <Property Type="Byte" Name="Sinav3" Nullable="true" />
+    <Property Type="Byte" Name="Quiz1" Nullable="true" />
+    <Property Type="Byte" Name="Quiz2" Nullable="true" />
+    <Property Type="Decimal" Name="Ortalama" Nullable="true" Precision="5" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Notlar2_Result">
+    <Property Type="Int32" Name="NotID" Nullable="false" />
+    <Property Type="String" Name="Ders_Adı" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Öğrenci" Nullable="true" MaxLength="46" />
+    <Property Type="Int32" Name="Sinav1" Nullable="true" />
+    <Property Type="Int32" Name="Sinav2" Nullable="true" />
+    <Property Type="Int32" Name="Sinav3" Nullable="true" />
+    <Property Type="Int32" Name="Quiz1" Nullable="true" />
+    <Property Type="Int32" Name="Quiz2" Nullable="true" />
+    <Property Type="Decimal" Name="Ortalama" Nullable="true" Precision="5" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Notlar3_Result">
+    <Property Type="Int32" Name="NotID" Nullable="false" />
+    <Property Type="String" Name="Ders_Adı" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Öğrenci" Nullable="true" MaxLength="46" />
+    <Property Type="Int32" Name="Sinav1" Nullable="true" />
+    <Property Type="Int32" Name="Sinav2" Nullable="true" />
+    <Property Type="Int32" Name="Sinav3" Nullable="true" />
+    <Property Type="Int32" Name="Quiz1" Nullable="true" />
+    <Property Type="Int32" Name="Quiz2" Nullable="true" />
+    <Property Type="Decimal" Name="Ortalama" Nullable="true" Precision="5" Scale="2" />
+    <Property Type="Int32" Name="Proje" Nullable="true" />
+  </ComplexType>
+</Schema>

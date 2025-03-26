@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|c:\\users\\pc\\source\\repos\\proje_ogrenci_akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmderslistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmderslistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmogrencipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmogrencipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|c:\\users\\pc\\source\\repos\\proje_ogrenci_akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmogrencipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmogrencipanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|c:\\users\\pc\\source\\repos\\proje_ogrenci_akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\proje_ogrenci_akademisyen\\formlar\\frmbolumlistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C8C6D6EF-ECBB-476D-8007-DC5E45CB236F}|Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen.csproj|solutionrelative:proje_ogrenci_akademisyen\\formlar\\frmbolumlistesi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOgrenci.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:31:30.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmOgrenciPanel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:31:16.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:54:16.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmMenu.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmMenu.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:54:14.751Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmOgrenciPanel.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenciPanel.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:49:05.123Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmOgrenci.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmOgrenci.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:48:53.208Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmDersListesi.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmDersListesi.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmDersListesi.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmDersListesi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmDersListesi.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:48:36.874Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmBolumListesi.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmBolumListesi.cs",
+              "RelativeDocumentMoniker": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmBolumListesi.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\Proje_Ogrenci_Akademisyen\\Proje_Ogrenci_Akademisyen\\Formlar\\FrmBolumListesi.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Proje_Ogrenci_Akademisyen\\Formlar\\FrmBolumListesi.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:48:17.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
