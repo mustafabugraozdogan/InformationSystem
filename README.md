@@ -31,8 +31,11 @@ Bu proje, akademisyenlerin öğrenci, ders ve not yönetimini kolayca yapabilmes
 
 ✅ Yetkilendirme: Öğrenciler yalnızca kendi bilgilerine erişebilir.
 
-# 👨‍🏫 Akademisyen Girişi:
+![Ekran görüntüsü 2025-03-25 224511](https://github.com/user-attachments/assets/7251dc6c-88dd-4f88-ba48-1f6418e3a310)
 
-👤 Kullanıcı Adı: 00000
+![Ekran görüntüsü 2025-03-25 224834](https://github.com/user-attachments/assets/468cf903-7eee-4f38-95d7-a56a67002ebc)
 
-🔑 Şifre: 000
+![Ekran görüntüsü 2025-03-25 224925](https://github.com/user-attachments/assets/cde8b93f-9b60-4403-ace6-d6f2234ee319)
+
+
+
