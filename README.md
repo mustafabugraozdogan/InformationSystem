@@ -21,7 +21,7 @@ Bu proje, akademisyenlerin öğrenci, ders ve not yönetimini kolayca yapabilmes
 
 🏛️ Bölüm Yönetimi: Bölüm ekleme, güncelleme, silme.
 
-📊 Not Yönetimi: Not ekleme, güncelleme, silme, ders bazında görüntüleme.
+📊 Not Yönetimi: Not hesaplama, Not ekleme, güncelleme, silme, ders bazında görüntüleme.
 
 # 🎓 Öğrenci Paneli 
 
