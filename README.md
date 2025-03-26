@@ -1,17 +1,20 @@
-##🎓 Akademik Bilgi Sistemi (C# Windows Forms)
-#📌 Proje Açıklaması
+## 🎓 Akademik Bilgi Sistemi (C# Windows Forms)
+# 📌 Proje Açıklaması
 Bu proje, akademisyenlerin öğrenci, ders ve not yönetimini kolayca yapabilmesi için geliştirilmiş bir masaüstü uygulamasıdır. Aynı zamanda öğrenciler yalnızca kendi bilgilerini görüntüleyip güncelleyebilir. Kullanıcı dostu ve sade arayüzü sayesinde, işlemler hızlı ve verimli şekilde gerçekleştirilebilir.
 
 
 
 💻 C# (Windows Forms): Masaüstü uygulamasının geliştirilmesi için kullanıldı.
+
 🛢️ Microsoft SQL Server (MSSQL): Veritabanı yönetimi sağlamak için kullanıldı.
+
 📂 Entity Framework (EF Designer from Database): CRUD işlemleri ve veritabanı modellemesi için kullanıldı.
+
 📝 ADO.NET: LİNQ sorguları ile veritabanı işlemleri gerçekleştirildi.
 
 
 
-#🚀 Özellikler
+# 🚀 Özellikler
 
 👨‍🏫 Akademisyen Paneli
 
