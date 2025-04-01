@@ -6,7 +6,7 @@ Bu proje, akademisyenlerin öğrenci, ders ve not yönetimini kolayca yapabilmes
 
 🛢️ Microsoft SQL Server (MSSQL): Veritabanı yönetimi sağlamak için kullanıldı.
 
-📂 Entity Framework (EF Designer from Database): CRUD işlemleri ve veritabanı modellemesi için kullanıldı.
+📂 Entity Framework (Database First Yaklaşımı): CRUD işlemleri ve veritabanı modellemesi için kullanıldı.
 
 📝 ADO.NET: LİNQ sorguları ile veritabanı işlemleri gerçekleştirildi.
 
